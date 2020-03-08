@@ -3,6 +3,8 @@ FROM ruby:2.6.3
 RUN apt update
 RUN apt install -y vim curl
 
+RUN gem install rails -v 5.1.6
+
 ENV NVM_DIR /root/.nvm
 ENV NODE_VERSION 13.10.1
 
