@@ -27,8 +27,9 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"rebornix.ruby",
-		"esbenp.prettier-vscode"
-	]
+		"esbenp.prettier-vscode",
+		"mbessey.vscode-rufo",
+	],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
@@ -38,6 +39,7 @@
 
 	// Uncomment the next line to run commands after the container is created - for example installing git.
 	// "postCreateCommand": "apt-get update && apt-get install -y git",
+	"postCreateCommand": "gem install rufo",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
