@@ -30,6 +30,12 @@
 		"esbenp.prettier-vscode",
 		"mbessey.vscode-rufo",
 		"aliariff.vscode-erb-beautify",
+		"castwide.solargraph",
+		"hridoy.rails-snippets",
+		"aki77.rails-db-schema",
+		"bung87.vscode-gemfile",
+		"bung87.rails",
+		"sianglim.slim"
 	],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
@@ -40,7 +46,7 @@
 
 	// Uncomment the next line to run commands after the container is created - for example installing git.
 	// "postCreateCommand": "apt-get update && apt-get install -y git",
-	"postCreateCommand": "gem install rufo htmlbeautifier",
+	"postCreateCommand": "gem install rufo htmlbeautifier solargraph",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
